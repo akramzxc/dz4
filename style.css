@@ -1,0 +1,39 @@
+body{
+    margin: 0 auto;
+}
+.counter {
+    display: flex;
+    padding-top: 425px;
+    justify-content: center;
+    text-align: center;
+  }
+.minus {
+    color: white;
+    background-color: rgb(204, 20, 20);
+    transform: translateX(-209px) translateY(2px);
+}
+.minus:hover {
+    background-color: red;
+}
+.plus {
+    color: white;
+    background-color: green;
+    transform: translateX(209px) translateY(0px);
+}
+.wrapper {
+    margin: 0 auto;
+    height: 876px;
+    width: auto;
+    background-color: rgb(157, 255, 0);
+}
+.plus{
+    width: 39px;
+    height: 40px;
+    border-radius: 51px;
+}
+
+.minus{
+    width: 39px;
+    height: 40px;
+    border-radius: 51px;
+}
